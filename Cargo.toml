@@ -1,0 +1,13 @@
+[package]
+name = "dns_server_rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.10.4"
+trust-dns-client = "0.23.2"
+trust-dns-server = "0.23.2"
+lazy_static = "1.4.0"
+tokio = "1.37.0"
